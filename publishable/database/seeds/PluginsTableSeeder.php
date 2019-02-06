@@ -10,8 +10,7 @@ class PluginsTableSeeder extends Seeder
      * @return void
      */
     public function run()
-    {
-        //DB::table('plugins')->delete();
+    {        
         $data = array(
             [
                 'status' => 1,
